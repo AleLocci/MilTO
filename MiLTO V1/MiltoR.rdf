@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8/"
+     xml:base="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#API -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#API"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Activation_Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Activation_Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Layers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#GPU_Usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#GPU_Usage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Hyperparameters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Hyperparameters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Layer_Properties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Layer_Properties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Layers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Layers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Layers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Loss_Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Loss_Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Missing_Preprocessing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Missing_Preprocessing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Preprocessing_of_Trainning_Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Model"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Optimizer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Optimizer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Preprocessing_of_Trainning_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Preprocessing_of_Trainning_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Input -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Input">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Tensors_&amp;_Inputs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Input_Format -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Input_Format">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Input"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Preprocessing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Preprocessing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Preprocessing_of_Trainning_Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Shape_of_Input -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Shape_of_Input">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Input"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Tensor_Shape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Tensor_Shape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Tensors_&amp;_Inputs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Type_of_Input_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Type_of_Input_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Input"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Missing/Redundant/Wrong_Layer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Missing/Redundant/Wrong_Layer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Layers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Model_Type_&amp;_Propertes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Model_Type_&amp;_Propertes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Tensors_&amp;_Inputs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Tensors_&amp;_Inputs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Validation/Testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Validation/Testing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
